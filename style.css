@@ -1,0 +1,144 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+header{
+    background-image: url(header.png);
+    background-position: center;
+    background-size: cover;
+    height: 150px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+header h1{
+    color: #fff;
+}
+.music{
+    text-align: center;
+}
+.container{
+    width: 80%;
+    margin: 50px auto;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+.tags{
+    text-align: center;
+    justify-content: space-between;
+    width: 200px;
+    margin: 10px auto;
+    display: flex;
+}
+.albums{
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.button button{
+    padding: 5px;
+    background-color: rgb(87, 87, 243);
+    border: none;
+    color: #fff;
+}
+
+.cart-header{
+    display: flex;
+    justify-content: center;
+}
+
+/* .cart-info{
+    display: flex;
+    align-items: center;
+    padding-right: 12px;
+}
+th{
+    text-align: left;
+    padding-left: 50px;
+}
+td{
+    padding-left: 50px;
+}
+.cart-page{
+    display: flex;
+    justify-content: center;
+}
+td input{
+    width: 35px;
+}
+.cart-total{
+    align-items: center;
+    text-align: center;
+}
+.button-purchase{
+    display: flex;
+    justify-content: center;
+}
+.cart-page button{
+    padding: 5px;
+    height: 40px;
+    margin-top: 55px;
+    background-color: red;
+    border: none;
+}
+.button-purchase button{
+    padding: 5px;
+    width: 130px;
+    height: 35px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    background-color: rgb(87, 87, 243);
+    border: none;
+} */
+
+.cart .title{
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.cart .title span{
+    margin-left: 80px;
+} 
+.cart-items .cart-row{
+    display: flex;
+    width: 50%;
+    margin: 0 auto;
+    justify-content: space-between;
+    padding: 30px;
+    text-align: center;
+}
+.cart-quantity input{
+    width: 35px;
+}
+.cart-item{
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+.cart-quantity button{
+    padding: 10px;
+    background-color: red;
+    border: none;
+}
+
+.cart-total{
+    display: flex;
+    justify-content: center;
+}
+.cart-total span{
+    padding-left: 12px;
+}
+.purchase-button{
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+.purchase-button button{
+    padding: 5px;
+    background-color: rgb(87, 87, 243);
+    border: none;
+    color: #fff;
+}
